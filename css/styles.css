@@ -1,3 +1,89 @@
 body {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+h1 {
+  text-align: center;
+  color: #9a610d;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #9a620d5f;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 20px 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 40px 40px;
+}
+.connections {
+  text-align: center;
+}
+.links {
+  text-decoration: none;
+  color: #9a610d;
+  line-height: 40px;
+  font-size: 24px;
+  padding-right: 15px;
+}
+.links:hover {
+  color: #9a610d;
+  text-decoration: underline;
+}
+.contact-info {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+}
+.recipe {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 640px;
+  grid-gap: 20px;
+  margin: 0 auto;
+}
+.ingredients {
+  max-width: 220px;
+  justify-content: left;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #9a620d5f;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 20px 20px;
+}
+.baking {
+  max-width: 400px;
+  justify-content: left;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #9a620d5f;
+  max-width: 640px;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 20px 20px;
+}
+.preparation {
+  justify-content: left;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #9a620d5f;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 7px;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+footer {
+  font-size: 12px;
+  margin-top: 40px;
   text-align: center;
 }
